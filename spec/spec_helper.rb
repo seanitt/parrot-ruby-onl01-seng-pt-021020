@@ -3,7 +3,9 @@
 # Require this file using `require "spec_helper"` to ensure that it is only
 # loaded once.
 require_relative '../parrot.rb'
-# See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+# See httdef print_one_plus_one
+  puts 1+1
+end
 RSpec.configure do |config|
   # Run specs in random order to surface order dependencies. If you find an
   # order dependency and want to debug it, you can fix the order by providing
